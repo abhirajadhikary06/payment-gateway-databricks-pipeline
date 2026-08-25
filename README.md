@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="4950" height="1284" alt="image" src="https://github.com/user-attachments/assets/f16a8129-dd0c-4eea-b271-29c233a48ba5" />
+</p>
 
 # payement-gateway-databricks-lakehouse-pipeline
 
