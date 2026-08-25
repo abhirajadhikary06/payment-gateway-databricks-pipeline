@@ -1,8 +1,9 @@
+
 # payement-gateway-databricks-lakehouse-pipeline
 
 An end-to-end, production-grade financial payment pipeline built on **Databricks (Medallion Architecture)** and powered by **LLM-driven AI Briefings**.
 
-FinFlow-AI standardizes multi-source semi-structured payment event logs (Razorpay, Dodo Payments, and Slice), computes BI-ready data marts, and generates automated executive risk summaries.
+payement-gateway-databricks-lakehouse-pipeline standardizes multi-source semi-structured payment event logs (Razorpay, Dodo Payments, and Slice), computes BI-ready data marts, and generates automated executive risk summaries.
 
 ---
 
@@ -61,7 +62,7 @@ payment-gateway-databricks-pipeline/
 
 * Databricks Workspace (Runtime 13.3+ LTS recommended)
 * Databricks SDK (`pip install databricks-sdk`)
-* Groq API Key stored in Databricks Secrets (`finance_scope` / `groq_api_key`)
+* Groq API Key ( `groq_api_key`)
 
 ### Deploy & Run the Pipeline
 
