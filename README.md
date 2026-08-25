@@ -26,7 +26,7 @@ payement-gateway-databricks-lakehouse-pipeline standardizes multi-source semi-st
    GOLD: financial_marts ➔ [ Daily KPIs & Top Root Causes ]
                                         │
                                         ▼
-   AI LAYER: Groq Engine ➔ [ Llama-3.3-70B Automated Risk & Incident Briefings ]
+   AI LAYER: Groq Engine ➔ [ oss/openai-20b Automated Risk & Incident Briefings ]
 
 ```
 
