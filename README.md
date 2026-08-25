@@ -56,7 +56,7 @@ payment-gateway-databricks-pipeline/
 * **Bronze Layer (`02_bronze_transform`):** Preserves immutable, raw payment events across all providers with zero data loss.
 * **Silver Layer (`03_silver_transform`):** Standardizes transaction amounts into base currency (`INR`), enforces schema constraints, masks sensitive fields, and performs idempotent upserts via Delta `MERGE INTO`.
 * **Gold Layer (`04_gold_transform`):** Aggregates daily performance metrics (Success Rates, Total Volumes, Settled Volumes) and top error codes.
-* **AI Layer (`05_ai_agent`):** Consumes Gold Markdown tables and feeds context into `llama-3.3-70b-versatile` via the Groq API to generate executive briefings.
+* **AI Layer (`05_ai_agent`):** Consumes Gold Markdown tables and feeds context into `oss/openai-20b` via the Groq API to generate executive briefings.
 
 ---
 
